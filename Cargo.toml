@@ -17,8 +17,8 @@ rand = "0.4"
 bit-vec = "0.4.4"
 futures = "0.1"
 
-pairing = { git = 'https://github.com/matterinc/pairing', tag = "0.16.2" }
-#pairing = { path = "../pairing" }
+#pairing = { git = 'https://github.com/matterinc/pairing', tag = "0.16.2" }
+pairing = { path = "../pairing" }
 byteorder = "1"
 
 futures-cpupool = {version = "0.1", optional = true}
